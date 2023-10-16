@@ -302,6 +302,69 @@ header #btn-tryItFree {
 } 
 #section7 .img-wrap2{
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#section8{
+  padding: 169px 75px 163px;
+}
+#section8 main,
+#section9 main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#section8 .p1,
+#section9 .p1{
+  font-size: 65px;
+  line-height: 75px;
+  font-weight: 600;
+  max-width: 791px;
+  text-align: center;
+  margin-bottom: 0;
+}
+#section8 .p2,
+#section9 .p2{
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 400;
+  max-width: 539px;
+  text-align: center;
+  margin-top: 0;
+}
+#section8 .img-wrap{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 32px;
+}
+#section8 .img{
+  width: 65vw;
+}
+#section8 button{
+  width: 193px;
+  height: 60px;
+  background: #ff6336;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 600;
+}
+#section9{
+  padding: 161px 75px 118px;
+  background: #FF9C7D;
+}
+#section9 .p2{
+  margin: 29px 0 54px
+}
+#section9 button{
+  width: 160px;
+  height: 60px;
+  background: #000;
+  color: #FFFFFF;
+  font-size: 17px;
+  font-weight: 600;
 }
 
 
