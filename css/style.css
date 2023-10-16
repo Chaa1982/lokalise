@@ -276,4 +276,32 @@ header #btn-tryItFree {
   font-weight: 400;
   margin-bottom: 0;
 }
+#section7{
+  background: #DABC98;
+  padding: 69px 75px 80px;
+}
+#section7 main{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+#section7 .left-side{
+  width: 50%;
+  border-right: 1px solid #000;
+  display: flex;
+  align-items: center;
+  gap: 67px;
+}
+#section7 .description{
+  font-size: 35px;
+  line-height: 50px;
+  font-weight: 600;
+}
+#section7 .right-side{
+  width: 50%;
+} 
+#section7 .img-wrap2{
+  width: 100%;
+}
+
 
