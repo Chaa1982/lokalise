@@ -1,0 +1,129 @@
+@media screen and (max-width: 1160px) {
+    #section1 #img-wrap {
+        display: none;
+    }
+    #section1 main {
+        margin: 0 0 50px  ;
+        align-items: center;
+        justify-content: center;
+    }
+    #section1 #text-wrap {
+        align-items: center;
+        justify-content: center;
+    }
+    #section1 h1,
+    #section1 p {
+        text-align: center;
+    }
+    #section3 .squares-wrap{
+        flex-direction: column;
+        align-items: center;
+    }
+    #section3 .first-square,
+    #section3 .second-square{
+        width: 100%;
+    }
+    .double-wrap .first-square{
+        margin-left: 0;
+      }
+
+    #section3 .first-square{     
+        text-align: center;
+        padding: 0 0 30px;
+    }
+    #section6 main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #section6 .left-side{
+        text-align: center;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 1010px) {
+    header #header-lokalise-wrap{
+        margin-right: 20px;
+    }
+    header #header-menu-el{
+        justify-content: center;
+        align-items: center;
+    }
+    header #header-menu-el a{
+        text-align: center;
+        line-height: 1px;
+    }
+    header #header-btn-wrap{
+        flex-direction: column;
+    }
+    #section2 #logo-wrap {
+        flex-direction: column;
+        padding: 0;
+    }
+    #section2 img{
+
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 910px) {
+    #section4 main{
+        gap: 0;
+    }
+}
+@media screen and (max-width: 760px) {
+    #section5 .header{
+        margin-bottom: 50px;
+    }
+    #section5 .el{
+        padding: 50px 0;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    header{
+        justify-content: space-between;
+    }
+    header #double-wrap{
+        display: flex;
+        flex-direction: column;
+    }
+    header #header-lokalise-wrap{
+        margin-bottom: 20px;
+    }
+    header #header-menu-el{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header #header-menu-el a{
+        margin-bottom: -10px;
+    }
+    header #header-btn-wrap{
+        align-items: center;
+    }
+    #section2 main{
+        padding: 20px 0;
+    }
+    #section2 h2 {
+        font-size: 40px;
+    }
+    #section4 .el{
+        padding: 0;
+    }
+    #section5 .el{
+        margin: 50px 0 ;
+    }
+    #section6 .first-str{
+        font-size: 24px;
+        
+      }
+}
+@media screen and (max-width: 375px) {
+    header{
+        flex-direction: column;
+    }
+    #section2 h2 {
+        font-size: 30px;
+    }
+}
