@@ -366,5 +366,107 @@ header #btn-tryItFree {
   font-size: 17px;
   font-weight: 600;
 }
+#section10 main{
+  max-width: 1440px;
+  display: flex;
+  border-bottom: 1.5px solid #000;
+}
+#section10 .left-side{
+  width: 40%;
+}
+#section10 .p1 {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
+  margin-bottom: 28px;
+}
+
+#section10 .img-wrap{
+  margin-bottom: 31px;
+}
+
+#section10 .img-wrap2{
+  margin-bottom: 11px;
+  max-width: 300px;
+}
+
+#section10 .img2 {
+  max-width: 300px;
+}
+
+#section10 .p2 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  max-width: 285px;
+}
+#section10 .p3 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  margin-bottom: 95px;
+}
+#section10 .right-side{
+  width: 60%;
+  max-width: 850px;
+  padding-top: 40px;
+  display: flex;
+  
+
+}
+#section10 #first-pare,
+#section10 #second-pare {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  flex-wrap: wrap;
+}
+#section10 .col {
+  width: 50%;
+  min-width: 187px;
+  min-height: 350px;
+}
+
+#section10 .p2-1{
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 600;
+}
+#section10 ul,
+ #section10 li{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: 15px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+footer{
+  padding: 48px 75px;
+}
+footer main {
+  display: flex;
+  justify-content: space-between;
+  
+}
+footer .left-side{
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+footer p {
+  max-width: 301px;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 400;
+}
+footer .right-side {
+  display: flex;
+  align-items: center;
+  padding-right: 76px;
+}
+
+
 
 
